@@ -1,14 +1,13 @@
-/ wizard
-/
-/ - generate_or_import
-/ - passphrase_new
-/ - backup
-/
+- load "lib/helpers.rb"
+- layout do
 
-
-/
-
-- if first_usage?
-  = haml :generate_or_import
-- else
-  = haml :wallet
+  / wizard
+  /
+  / - generate_or_import
+  / - passphrase_new
+  / - backup
+  /
+  - if first_usage?
+    = haml :generate_or_import
+  - else
+    = haml :wallet

@@ -1,4 +1,4 @@
-guard :haml, input: 'haml', output: '.'
+guard :haml, input: 'haml', output: 'public'
 guard :sass, input: 'sass', output: 'css'
 guard :coffeescript, input: 'coffee', output: "js", bare: true
 guard :livereload do

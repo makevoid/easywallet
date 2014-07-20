@@ -1,32 +1,9 @@
-:ruby
-  # layout methods
-
-  def haml(name)
-    template = File.read('haml/.haml')
-    haml_engine = Haml::Engine.new(template)
-    output = haml_engine.render
-    puts output
-  end
-
-
-  # helpers
-
-  def first_usage?
-    true
-    # TODO: set to false and style both layouts
-    # TODO: implement with
-  end
-
-
-  # view helpers
-
-  def span(label)
-    haml_tag(:span){ |s| haml_concat label }
-  end
 !!!
 %html
   %head
     %title EasyWallet
   %body
+    EW
     .container
-      = haml :index
+      = yielding
+
