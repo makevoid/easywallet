@@ -1,1 +1,14 @@
-index.haml
+/ wizard
+/
+/ - generate_or_import
+/ - passphrase_new
+/ - backup
+/
+
+
+/
+
+- if first_usage?
+  = haml :generate_or_import
+- else
+  = haml :wallet

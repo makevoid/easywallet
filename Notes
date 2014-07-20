@@ -11,3 +11,48 @@ http://bitcoinmagazine.com/8396/deterministic-wallets-advantages-flaw/
 
 Too fun: only 1 btc??
 https://github.com/etotheipi/BitcoinArmory/blame/master/README#L38
+
+
+
+node related stuff:
+
+node haml
+http://howtonode.org/haml-for-javascript
+
+
+
+-----------
+
+Idea chat note and explanation of maximum security
+
+Cmq sto cercando di fare un wallet che assomigli a un portafogli
+e ogni indirizzo e' fatto a forma di carta (simile alla carta di credito)
+dove davanti c'e' un codice pubblico che inizia con 4-5 lettere sensate, almeno uno la riconosce
+perche' sono tipo 24 caratteri insensati eheh
+e dietro la carta (immagino tipo nello spazio dove c'e' il codice di verifica) viene visualizzato un codice molto lungo che e' la chiave privata (tipo 42 caratteri)
+cioe' la password dell'account bitcoin alla fine
+e il codice pubblico si puo fare con 1Nome a caso [tipo 1Nomea89sudashdasdasdasd]
+tipo
+Pattern: 1Nagi
+Address: 1Nagik6FXjKb9MRYG16V6XXQqUhhLj7zB9
+Privkey: 5KCBtQEu8bQ32DeWBX5HXLUFnG9mchtGZf1qqCkQzwDQ5i7fTm4
+e' una coppia di chiavi alla fine
+Pattern: 1Nagi
+Address: 1NagifaNPLtSYXaCMNMZWyHcxAeyPYfrdv
+Privkey: 5JRikhhqH3s365S17aoFEDmus4uEAZwzysQhgGHaouMAb9jnFJM
+pero' ne puoi generare infinite, e puoi scegliere i primi caratteri
+e alla fine se le hai generate con un pc offline low cost che ha come hard disk una scheda SD e quella la distruggi, e' sicuro al 100%, si tratta solo di mettere la chiave privata al sicuro, e quella alla fine e' il valore dei bitcoin, queste chiavi private che sono le password ai fondi che stanno su quell'account
+
+gli utenti possono generare chiavi sicure semplicemente applicando delle funzioni "matematiche" che generano un indirizzo valido (e la chiave privata associata) sempre diversi.
+La chiave privata serve ad accedere ai fondi
+quindi di fatto gli utenti possono avere n  indirizzi sicuri finquanto riescono a tenere sicura la chiave privata
+senza bisogno di andare da qualcuno e dire, oh posso registrarmi per una carta, oh posso aprire un conto? no
+conti infiniti, gratuiti, apribili da chiunque abbia almeno un cellulare (anche non smartphone)
+ci sono wallet via sms
+e anche le transazioni sono gratuite
+o comunque costano poco
+tipo 1 cent
+anche se vuoi mandare un numero enorme di btc
+costa sempre uguale
+ed e' sicura uguale
+# rephrase, remove chat-style language
