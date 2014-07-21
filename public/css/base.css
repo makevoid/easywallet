@@ -1,0 +1,45 @@
+html, body {
+  font-family: sans-serif, Arial, Verdana;
+  text-align: center; }
+
+a {
+  text-decoration: none; }
+
+* {
+  padding: 3%;
+  background: #eeeeee;
+  border: 1px solid #999999;
+  max-width: 1000px;
+  text-align: center;
+  box-sizing: border-box; }
+
+html, body {
+  max-width: 5000px; }
+
+p {
+  padding: 3% 0%; }
+
+div {
+  display: block; }
+
+a {
+  display: inline-block; }
+
+input {
+  display: block; }
+
+input[type=text], input[type=password] {
+  width: 100%; }
+
+.hidden {
+  display: none; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.container {
+  margin: 0 auto;
+  width: 100%; }
