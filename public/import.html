@@ -10,14 +10,13 @@
       <div class='left'>
         <a href='/'>EW</a>
       </div>
-      <div class='wallet'>
-        <div class='card'>
-          <a href='/card.html'>1ALice</a>
-          <p>1ALicee1bcqFCM3Th3EK4YQE6nwn3HxPvo</p>
-          <div class='right'>
-            <a href='/card_back.html'>></a>
-          </div>
-        </div>
+      <div class='wizard' data-step='1'>
+        <h1>Import private key</h1>
+        <form action='/import.html' method='get'>
+          <p>The private key is a string of 33 of 56 characters.</p>
+          <input name='private_key' type='text'>
+          <input type='submit' value='Import'>
+        </form>
       </div>
       <script src='/js/app.js' type='text/javascript'></script>
     </div>

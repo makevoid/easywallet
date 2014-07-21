@@ -17,7 +17,8 @@ html, body {
   max-width: 5000px; }
 
 p {
-  padding: 3% 0%; }
+  padding: 1% 0;
+  border: 0; }
 
 div {
   display: block; }

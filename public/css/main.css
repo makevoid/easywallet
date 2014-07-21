@@ -17,23 +17,20 @@ html, body {
   max-width: 5000px; }
 
 p {
-  padding: 3% 0%; }
-
-input {
-  display: block; }
-
-input[type=text], input[type=password] {
-  width: 100%; }
-
-.container {
-  margin: 0 auto;
-  width: 100%; }
+  padding: 1% 0;
+  border: 0; }
 
 div {
   display: block; }
 
 a {
   display: inline-block; }
+
+input {
+  display: block; }
+
+input[type=text], input[type=password] {
+  width: 100%; }
 
 .hidden {
   display: none; }
@@ -43,6 +40,10 @@ a {
 
 .right {
   text-align: right; }
+
+.container {
+  margin: 0 auto;
+  width: 100%; }
 
 .card {
   text-align: left; }

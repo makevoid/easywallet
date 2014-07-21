@@ -1,5 +1,7 @@
 guard :haml, input: 'haml', output: 'public'
-guard :sass, input: 'sass', output: 'public/css'
+guard :sass, input: 'sass', output: 'public/css' do
+  watch %r{sass/.+.sass}
+end
 guard :coffeescript, input: 'coffee', output: "public/js", bare: true
 guard :livereload do
   watch %r{.+.(haml|md|markdown|textile)}
