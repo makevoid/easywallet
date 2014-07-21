@@ -3,8 +3,6 @@
   .wizard{ data: { step: 1 } }
     %h1 Import private key
 
-    
-    
     %form{ action: "/import.html", method: :get }
       %p The private key is a string of 33 of 56 characters.
       %input{ name: "private_key", type: "text" }
