@@ -1,1 +1,4 @@
-console.log "asd"
+
+
+document.addEventListener "hashchange", ->
+  console.log "asd"

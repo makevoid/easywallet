@@ -1,10 +1,24 @@
+// standard reset
+
+html, body
+  font-family: sans-serif, Arial, Verdana
+  text-align: center
+
+a
+  text-decoration: none
+
+//
+
 *
   padding: 3% // 20px
   background: #EEE
-  border: 1px solid #000
+  border: 1px solid #999
   max-width: 1000px
   text-align: center
   box-sizing: border-box
+
+html, body
+  max-width: 5000px
 
 p
   padding: 3% 0%
@@ -15,12 +29,47 @@ input
 input[type=text], input[type=password]
   width: 100%
 
+.container
+  margin: 0 auto
+  width: 100%
+
 
 div
   display: block
 
 a
   display: inline-block
+
+.hidden
+  display: none
+
+.left
+  text-align: left
+
+.right
+  text-align: right
+
+.card
+  text-align: left
+.card.back
+  display: none
+
+//////
+
+// colors
+
+div
+  background: rgba(100, 100, 100, 0.1)
+  border-radius: 6px
+
+a
+  background: lightGreen
+  color: #444
+a:hover
+  background: lightBlue
+
+
+
 
 
 // div:after

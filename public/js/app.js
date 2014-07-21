@@ -1,1 +1,3 @@
-console.log("asd");
+document.addEventListener("hashchange", function() {
+  return console.log("asd");
+});

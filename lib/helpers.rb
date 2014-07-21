@@ -27,11 +27,6 @@ end
 
 # helpers
 
-def first_usage?
-  true
-  # TODO: set to false and style both layouts
-  # TODO: implement with
-end
 
 
 # view helpers

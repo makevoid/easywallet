@@ -5,7 +5,9 @@
     %meta{ charset: "utf-8" }
     %link{ href: "/css/main.css", rel: "stylesheet" }
   %body
-    EW
     .container
+      .left
+        %a{ href: "/" } EW
       = yielding
+      %script{ src: "/js/app.js", type: "text/javascript" }
 
