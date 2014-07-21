@@ -66,3 +66,20 @@ a {
 
 a:hover {
   background: lightblue; }
+
+.cards > .card {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: -14px;
+  height: auto; }
+
+.card {
+  background: #999999;
+  border: 2px solid #eeeeee;
+  border-radius: 1.3em;
+  height: 220px; }
+
+.card.last {
+  height: 220px;
+  border-radius: 1.3em;
+  margin-bottom: 3%; }
