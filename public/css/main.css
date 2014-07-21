@@ -1,0 +1,22 @@
+* {
+  padding: 3%;
+  background: #eeeeee;
+  border: 1px solid black;
+  max-width: 1000px;
+  text-align: center;
+  box-sizing: border-box; }
+
+p {
+  padding: 3% 0%; }
+
+input {
+  display: block; }
+
+input[type=text], input[type=password] {
+  width: 100%; }
+
+div {
+  display: block; }
+
+a {
+  display: inline-block; }

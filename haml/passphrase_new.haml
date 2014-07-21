@@ -1,7 +1,11 @@
-.wizard{ data: { step: 1 } }
-  %h1 Set Password (Passphrase)
+- load "lib/helpers.rb"
+- layout do
+  .wizard{ data: { step: 1 } }
+    %h1 Set Password (Passphrase)
 
-  %input{ name: "passphrase", type: "password" }
-  %input{ name: "passphrase_confirmation", type: "password" }
+    -# TODO: %form{ method: :post }
+    %form{ action: "/backup.html", method: :get }
+      %input{ name: "passphrase", type: "password" }
+      %input{ name: "passphrase_confirmation", type: "password" }
 
-  %input{ value: "Set password", type: "submit" }
+      %input{ value: "Set password", type: "submit" }

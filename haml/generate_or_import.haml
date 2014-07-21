@@ -1,6 +1,8 @@
-.wizard{ data: { step: 0 } }
-  %a.btn.btn_big
-    Generate
-  %p
-    or
-    %a Import
+- load "lib/helpers.rb"
+- layout do
+  .wizard{ data: { step: 0 } }
+    %a.btn.btn_big{ href: "/passphrase_new.html" }
+      Generate
+    %p
+      or
+      %a Import

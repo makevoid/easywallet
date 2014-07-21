@@ -1,8 +1,15 @@
-.wizard{ data: { step: 2 } }
-  .precautions
-    %p Precautions text
+- load "lib/helpers.rb"
+- layout do
+  .wizard{ data: { step: 2 } }
+    .precautions
+      %p Precautions text
 
-  .private_key
+    .private_key
+      %p 123123ADAWE.....EJASJDASD
 
-  %a.btn.btn_print
-    Print
+
+    %a.btn.btn_print
+      Print
+
+    %a.btn.btn_finish{ href: "/?setup=true" }
+      Finish

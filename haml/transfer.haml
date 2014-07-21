@@ -1,11 +1,13 @@
-.card.left
-  .address
-    user.pubkey
+- load "lib/helpers.rb"
+- layout do
+  .card.left
+    .address
+      user.pubkey
 
-.transfer
-  %input{ name: "amount", type: "text" }
-  %input{ value: "Send", type: "submit" }
+  .transfer
+    %input{ name: "amount", type: "text" }
+    %input{ value: "Send", type: "submit" }
 
-.card.right
-  .address
-    %input{ name: "", type: "text" }
+  .card.right
+    .address
+      %input{ name: "", type: "text" }
