@@ -83,3 +83,27 @@ a:hover {
   height: 220px;
   border-radius: 1.3em;
   margin-bottom: 3%; }
+
+.card[data-idx="0"] {
+  background: #ca4a00; }
+
+.card[data-idx="1"] {
+  background: #ca9a00; }
+
+.card[data-idx="2"] {
+  background: #cac200; }
+
+.card[data-idx="3"] {
+  background: #80ca00; }
+
+.card[data-idx="4"] {
+  background: #80ca00; }
+
+.card[data-idx="5"] {
+  background: #c99a00; }
+
+.card[data-idx="6"] {
+  background: #ca4a00; }
+
+.wallet {
+  background: #999999; }

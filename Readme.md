@@ -8,6 +8,14 @@ As a developer I cannot do much good praising the bitcoin is good and innovative
 But we can be a simpler, more user friendly wallet. That for sure!
 
 
+### TODO
+
+**UI:**
+
+- total transactions
+
+
+
 ### devnotes:
 
 to clean main dir, delete all symlinks:

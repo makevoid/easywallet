@@ -36,6 +36,29 @@ a:hover
   border-radius: 1.3em
   margin-bottom: 3%
 
+// TODO: use colors.js (handle everything via js) // 
+// first has less sources but was good i think
+// https://github.com/n3dst4/colour.js - http://www.xarg.org/project/jquery-color-plugin-xcolor/ ( $.xcolor.analogous('#da0') )
+
+$dark: 4
+
+.card[data-idx="0"]
+  background: darken( rgb(222, 81, 0 ), $dark ) 
+.card[data-idx="1"]
+  background: darken( rgb(222, 170, 0), $dark ) 
+.card[data-idx="2"]
+  background: darken( rgb(222, 214, 0), $dark ) 
+.card[data-idx="3"]
+  background: darken( rgb(141, 222, 0), $dark ) 
+.card[data-idx="4"]
+  background: darken( rgb(141, 222, 0), $dark ) 
+.card[data-idx="5"]
+  background: darken( rgb(221, 170, 0), $dark ) 
+.card[data-idx="6"]
+  background: darken( rgb(222, 81, 0 ), $dark ) 
+  
+.wallet
+  background: #999 // probably it will become darker and maybe dark brown
 
 
 // div:after
